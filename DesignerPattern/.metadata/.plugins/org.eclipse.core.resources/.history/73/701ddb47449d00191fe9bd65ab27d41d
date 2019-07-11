@@ -1,0 +1,9 @@
+package desingerPatternAbstractFactory;
+
+public class Carro {
+	
+	private Roda roda;
+	private Som som;
+	
+
+}

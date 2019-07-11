@@ -1,0 +1,17 @@
+package desingerPatternAbstractFactory;
+
+public class CarroLuxoFactory extends CarroFactory{
+
+	@Override
+	public Roda montarRoda() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Roda montarSom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

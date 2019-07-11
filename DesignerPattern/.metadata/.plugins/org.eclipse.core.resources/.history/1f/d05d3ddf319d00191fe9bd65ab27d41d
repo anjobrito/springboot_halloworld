@@ -1,0 +1,18 @@
+package lambdaExpression.biggestNumber;
+
+public class Numbers {
+	
+	 int[] numbers;
+	
+	public Numbers() {
+	
+		
+	}
+	
+	public int[] getNumbers() {
+		return int[1,5,10];
+	}
+	
+	
+
+}

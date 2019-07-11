@@ -1,0 +1,5 @@
+package desingerPatternAbstractFactory;
+
+public abstract class CarroFactory extends Carro{
+
+}

@@ -1,0 +1,13 @@
+package desingerPatternAbstractFactory;
+
+public class TesteFactory {
+	
+	
+	public static Carro montaCarro(String tipo) {
+		CarroFactory carro = new CarroFactory();
+		
+	return	carro;
+	}
+	
+
+}

@@ -1,0 +1,18 @@
+package lambdaExpression;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FaturaDao {
+
+	
+	public List<Fatura> buscarFatura(){
+		List<Fatura> faturas = new ArrayList();
+		
+		
+		return 
+		
+	}
+	
+	
+}

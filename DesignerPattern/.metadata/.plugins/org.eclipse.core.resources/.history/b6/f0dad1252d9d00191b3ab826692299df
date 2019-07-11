@@ -1,0 +1,19 @@
+package lambdaExpression;
+
+import java.time.LocalDate;
+
+public class Fatura {
+	
+	public String email;
+	public double valor;
+	public LocalDate dataVenc;
+	
+	public Fatura( String email,double valor,LocalDate dataVenc) {		
+		this.email = email;
+		this.valor = valor;
+		this.dataVenc = dataVenc;		
+	}
+	
+	
+
+}

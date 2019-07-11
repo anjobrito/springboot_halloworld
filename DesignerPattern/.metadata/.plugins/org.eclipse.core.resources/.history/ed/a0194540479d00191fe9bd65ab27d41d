@@ -1,0 +1,25 @@
+package desingerPatternAbstractFactory;
+
+public class TesteFactory {
+	
+	
+	public static Carro montaCarro(String tipo) {
+		CarroFactory carro = null;
+		switch (tipo) {
+		case "Luxo":
+			carro= new CarroLuxoFactory();
+			break;
+	    case "Popular":
+	    	carro= new CarroPopularFactory();
+			break;
+		}
+		
+		Carro car = new Carro();
+		car.setRoda(carro.montarRoda());
+		car.setSom(carro.montarSom());
+		
+	return	carro;
+	}
+	
+
+}

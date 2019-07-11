@@ -1,0 +1,10 @@
+package lambdaExpression;
+
+public final class LambdaExpression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
